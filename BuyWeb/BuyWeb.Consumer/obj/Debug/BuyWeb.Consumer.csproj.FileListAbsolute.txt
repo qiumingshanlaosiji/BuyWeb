@@ -1,0 +1,10 @@
+E:\BuyWeb\BuyWeb\BuyWeb.Consumer\bin\Debug\BuyWeb.Consumer.dll
+E:\BuyWeb\BuyWeb\BuyWeb.Consumer\bin\Debug\BuyWeb.Consumer.pdb
+E:\BuyWeb\BuyWeb\BuyWeb.Consumer\bin\Debug\Newtonsoft.Json.dll
+E:\BuyWeb\BuyWeb\BuyWeb.Consumer\bin\Debug\Newtonsoft.Json.xml
+E:\BuyWeb\BuyWeb\BuyWeb.Consumer\obj\Debug\BuyWeb.Consumer.csprojAssemblyReference.cache
+E:\BuyWeb\BuyWeb\BuyWeb.Consumer\obj\Debug\BuyWeb.Consumer.csproj.CoreCompileInputs.cache
+E:\BuyWeb\BuyWeb\BuyWeb.Consumer\obj\Debug\BuyWeb.Consumer.csproj.CopyComplete
+E:\BuyWeb\BuyWeb\BuyWeb.Consumer\obj\Debug\BuyWeb.Consumer.dll
+E:\BuyWeb\BuyWeb\BuyWeb.Consumer\obj\Debug\BuyWeb.Consumer.pdb
+E:\BuyWeb\BuyWeb\BuyWeb.Consumer\bin\Debug\TopSdk.dll

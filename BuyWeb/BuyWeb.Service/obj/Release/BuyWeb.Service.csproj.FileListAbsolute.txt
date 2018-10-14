@@ -1,0 +1,16 @@
+E:\BuyWeb\BuyWeb\BuyWeb.Service\bin\Release\BuyWeb.Service.dll
+E:\BuyWeb\BuyWeb\BuyWeb.Service\bin\Release\BuyWeb.Service.pdb
+E:\BuyWeb\BuyWeb\BuyWeb.Service\bin\Release\BuyWeb.Consumer.dll
+E:\BuyWeb\BuyWeb\BuyWeb.Service\bin\Release\BuyWeb.Dao.dll
+E:\BuyWeb\BuyWeb\BuyWeb.Service\bin\Release\Newtonsoft.Json.dll
+E:\BuyWeb\BuyWeb\BuyWeb.Service\bin\Release\Dapper.dll
+E:\BuyWeb\BuyWeb\BuyWeb.Service\bin\Release\BuyWeb.Consumer.pdb
+E:\BuyWeb\BuyWeb\BuyWeb.Service\bin\Release\BuyWeb.Dao.pdb
+E:\BuyWeb\BuyWeb\BuyWeb.Service\bin\Release\Newtonsoft.Json.xml
+E:\BuyWeb\BuyWeb\BuyWeb.Service\bin\Release\Dapper.xml
+E:\BuyWeb\BuyWeb\BuyWeb.Service\obj\Release\BuyWeb.Service.csprojAssemblyReference.cache
+E:\BuyWeb\BuyWeb\BuyWeb.Service\obj\Release\BuyWeb.Service.csproj.CoreCompileInputs.cache
+E:\BuyWeb\BuyWeb\BuyWeb.Service\obj\Release\BuyWeb.Service.csproj.CopyComplete
+E:\BuyWeb\BuyWeb\BuyWeb.Service\obj\Release\BuyWeb.Service.dll
+E:\BuyWeb\BuyWeb\BuyWeb.Service\obj\Release\BuyWeb.Service.pdb
+E:\BuyWeb\BuyWeb\BuyWeb.Service\bin\Release\TopSdk.dll

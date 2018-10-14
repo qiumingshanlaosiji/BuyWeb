@@ -1,0 +1,9 @@
+E:\BuyWeb\BuyWeb\BuyWeb.Dao\bin\Release\BuyWeb.Dao.dll
+E:\BuyWeb\BuyWeb\BuyWeb.Dao\bin\Release\BuyWeb.Dao.pdb
+E:\BuyWeb\BuyWeb\BuyWeb.Dao\bin\Release\Dapper.dll
+E:\BuyWeb\BuyWeb\BuyWeb.Dao\bin\Release\Dapper.xml
+E:\BuyWeb\BuyWeb\BuyWeb.Dao\obj\Release\BuyWeb.Dao.csprojAssemblyReference.cache
+E:\BuyWeb\BuyWeb\BuyWeb.Dao\obj\Release\BuyWeb.Dao.csproj.CoreCompileInputs.cache
+E:\BuyWeb\BuyWeb\BuyWeb.Dao\obj\Release\BuyWeb.Dao.csproj.CopyComplete
+E:\BuyWeb\BuyWeb\BuyWeb.Dao\obj\Release\BuyWeb.Dao.dll
+E:\BuyWeb\BuyWeb\BuyWeb.Dao\obj\Release\BuyWeb.Dao.pdb
