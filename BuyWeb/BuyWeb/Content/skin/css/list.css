@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* CSS Document */
+a{
+	color:#333;
+}
+a:hover{
+	curson:pointer;
+}
+
+
+
+#search {
+	height: 463px;
+	padding-top: 163px;
+	color: #fff;
+	line-height: 1.5;
+	position: relative;
+}
+.advertisement {
+	display: block;
+	height: 463px;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	overflow: hidden;
+}
+.advertisement img {
+/*	height: 550px;
+	z-index: -1;
+	visibility: hidden;*/
+}
+.searchContent {
+	width: 620px;
+	margin: auto;
+	position: relative;
+	z-index: 1;
+}
+.searchBox {
+	opacity: .8;
+	filter: alpha(opacity=80);
+	border-radius: 10px;
+}
+.searchBox .search_tab {
+	line-height: 2.5;
+	font-size: 24px;
+	padding: 0 18px;
+	display: inline-block;
+	margin-top: 10px;
+	display: none;
+}
+.searchBox .search_map {
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+.searchBox .search_map i {
+	background: url("../images/location.png"/*tpa=http://fang.dede58.com/skin/images/location.png*/) no-repeat;
+	display: inline-block;
+	width: 10px;
+	height: 12px;
+	margin-left: 6px;
+}
+.searchBox form input {
+	border: none;
+	float:left;
+	padding: 16px 0 16px 20px;
+}
+.searchBox form input[type="text"] {
+	border: none;
+	border-radius: 10px;
+	font-size: 16px;
+	width: 500px;
+	border-radius: 10px 0 0 10px;
+	vertical-align: top;
+	padding-left: 20px;
+	color:#000000;
+}
+.searchBox form input[type="submit"] {
+	background: #c00;
+	font-size: 20px;
+	width: 120px;
+	color: #fff;
+	border-radius: 0 10px 10px 0;
+	padding-top: 14px;
+	padding-bottom: 18px;
+	padding-left: 0;
+	height: 54px;
+	line-height: 28px;
+	cursor: pointer;
+}
+
+
+.goods-name {
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+.goodsimg{
+	width:283px;
+}
+.interest-title{
+	width:283px;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000,endColorstr=#33000000);
+	background:rgba(0, 0, 0, 0.3);
+}
+.padlr10{
+	padding:0 10px;
+}
+.partb10{
+	padding:10px 0;
+}
+.marl10{
+	margin-left:10px;
+}
+.mart10{
+	margin-top:10px;
+}
+
+.interest-list{
+	width:1200px;
+}
+.interest-list .interest-item{
+	width:285px;
+	float:left;
+	margin-right:13px;
+}
+.interest-list .interest-item:hover{
+	border-color:#e83928;
+}
+.interest-list .interest-item a{
+	display:inline-block;
+}
+.btns{
+	height:36px;
+}
+.btns a{
+	display:inline-block;
+	width:50%;
+	overflow: hidden;
+    white-space: nowrap;
+	text-align:center;
+	padding:8px 5px;
+	border-right:1px dashed #999;
+	text-decoration:none;
+}
+.btns a:hover{
+	color:#e83928;
+}
+.btns a:last-child{
+	border-right:none;
+}
+.interest-item .unit span{
+	font-size:1.6em;
+}
+.price-search{
+	display:inline-block;
+}
+.price-search input{
+	width:60px;
+	height:26px;
+}
+.price-search .s-btn{
+	width:50px;
+	height:26px;
+	line-height:1;
+	margin-left:5px;
+	border-radius:2px;
+	border: 1px solid #bfbfbf;
+    background-color: #f3f3f3;
+}
+.left-list{
+	padding:0 10px;
+}
+.left-list a:hover{
+	cursor:pointer;
+}
+.params-box .px-active a{
+	display:inline-block;
+	color:#e83928;
+	border-bottom:2px solid #e83928;
+}
+.text-dno a{
+	text-decoration:none;
+}

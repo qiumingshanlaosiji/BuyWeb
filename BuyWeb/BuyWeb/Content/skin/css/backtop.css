@@ -1,0 +1,49 @@
+﻿/* 织梦58（dede58.com）做最好的织梦整站模板下载网站 */
+.widget {
+	position: fixed;
+	bottom: 150px;
+	right: 15px;
+	border: 1px solid #e1e1e1;
+	font-size: 14px;
+	text-align: center;
+	background: #fff;
+}
+.widget .phone, .widget .backTop {
+	width: 64px;
+	height: 64px;
+	color: #999;
+	text-decoration: none;
+	display: block;
+}
+.widget .phone{
+	border-bottom: 1px solid #e1e1e1;
+}
+.widget .phone img {
+	width:19px;
+	height:19px;
+	margin-top: 8px;
+	margin-bottom: 3px;
+}
+.widget .phone span {
+	display: block;
+	font-size: 12px;
+}
+.widget .backTop {
+	display: none;
+}
+.widget .backTop img {
+	margin-top: 27px;
+	width:19px;
+}
+.widget .hover-icon{
+	display:none;
+}
+.widget a:hover{
+	color:#e83928;
+}
+.widget a:hover img{
+	display:none;
+}
+.widget a:hover .hover-icon{
+	display:inline-block;
+}

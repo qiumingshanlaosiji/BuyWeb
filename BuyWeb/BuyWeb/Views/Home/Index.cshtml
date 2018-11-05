@@ -1,24 +1,184 @@
-﻿<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>ASP.NET Web API is a framework that makes it easy to build HTTP services that reach
-        a broad range of clients, including browsers and mobile devices. ASP.NET Web API
-        is an ideal platform for building RESTful applications on the .NET Framework.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301870">Learn more &raquo;</a></p>
+﻿
+<!DOCTYPE html>
+<html ng-app="housesApp">
+<head>
+    <meta charset="utf-8">
+    <title>首页</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="~/Content/skin/css/backtop.css" />
+    <link rel="stylesheet" href="~/Content/skin/css/base.css" />
+    <link rel="stylesheet" href="~/Content/skin/css/common.css" />
+    <link rel="stylesheet" href="~/Content/skin/css/houses.css">
+    <link rel="stylesheet" href="~/Content/skin/css/bootstrap.css">
+    <link rel="stylesheet" href="~/Content/skin/css/header.css">
+    <link rel="stylesheet" href="~/Content/skin/css/backtop.css">
+    <link rel="stylesheet" href="~/Content/skin/css/footer.css">
+    <link rel="stylesheet" href="~/Content/skin/css/list.css">
+    <script src="~/Content/js/axios.min.js"></script>
+    <style>
+        .param-item {
+            margin: 0;
+            border-bottom: none;
+        }
+
+            .param-item a {
+                padding: 0px 10px;
+            }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <div id="header" name="header" class="cf">
+            <div class="headerBox">
+                <div class="fl">
+                    <ul class="nav cf">
+                        <li class="haowu_icon"><a href="~/home/index"><img src="~/Content/skin/images/haowu_across.png" alt=""></a></li>
+                        <li><a href="~/home/index">首页</a></li>
+                        <li><a href="#">九块钱GO!</a></li>
+                        <li><a href="#">品牌GO!</a></li>
+                        <li><a href="#">超值GO!</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="main">
+            <div id="search">
+                <a href="javascript:void(0);" class="advertisement"> <img src="~/Content/skin/images/indextopdefault.jpg"></a>
+                <div class="searchContent">
+                    <div class="searchBox">
+                        <form name="formsearch" action="">
+                            <input class="searchkey" name="q" type="text" placeholder="关键词 / 链接 / 品牌" value="">
+                            <input type="submit" onclick="search" value="搜索">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="container">
+                    <div class="params-box text-dno">
+                        <div class="param-item">
+                            <a href="haikou/index.htm">不限</a><a href="#">女装</a> <a href="#">男装</a> <a href="#">美妆</a> <a href="#">家居</a><a href="#">鞋包配饰</a>
+                        </div>
+                    </div>
+                    <div class="params-box partb10 text-dno">
+                        <div class="fl left-list">排序方式：</div>
+                        <div class="fl left-list"><a>价格</a></div>
+                        <div class="fl left-list px-active"><a>销量</a></div>
+                        <div class="fl left-list"><a>新品</a></div>
+                        <div class="fr left-list">共<span>15</span>件</div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="main-list">
+                        <div id="housesList" class="list-body">
+                            <div class="interest-list">
+                                <div class="interest-item">
+                                    <a href="#"> <img class="goodsimg" src="~/Content/uploads/181015/1-181015004.jpg" /></a>
+                                    <div class="interest-title">
+                                        <div class="tab-list pull-right">124人领券</div>
+                                    </div>
+                                    <div class="goods-name padlr10 mart10"><a href="#">袜子女短袜浅口韩国可爱纯棉薄款夏季学院风隐形袜低帮</a></div>
+                                    <div class="marl10 mart10">
+                                        到手价
+                                        <label class="unit">¥<span>11.80</span></label>
+                                    </div>
+                                    <div class="btns"><a href="#" class="a-zaishou">5家在售</a><a href="#" class="a-shoucang">收藏</a></div>
+                                </div>
+                                <div class="interest-item">
+                                    <a href="#"> <img class="goodsimg" src="~/Content/uploads/181015/1-181015005.jpg" /></a>
+                                    <div class="interest-title">
+                                        <div class="tab-list pull-right">124人领券</div>
+                                    </div>
+                                    <div class="goods-name padlr10 mart10"><a href="#">袜子女短袜浅口韩国可爱纯棉薄款夏季学院风隐形袜低帮</a></div>
+                                    <div class="marl10 mart10">
+                                        到手价
+                                        <label class="unit"><span>88.90</span> 元</label>
+                                    </div>
+                                    <div class="btns"><a href="#" class="a-zaishou">5家在售</a><a href="#" class="a-shoucang">收藏</a></div>
+                                </div>
+                                <div class="interest-item">
+                                    <a href="#"> <img class="goodsimg" src="~/Content/uploads/181015/1-181015006.jpg" /></a>
+                                    <div class="interest-title">
+                                        <div class="tab-list pull-right">124人领券</div>
+                                    </div>
+                                    <div class="goods-name padlr10 mart10"><a href="#">袜子女短袜浅口韩国可爱纯棉薄款夏季学院风隐形袜低帮</a></div>
+                                    <div class="marl10 mart10">
+                                        到手价
+                                        <label class="unit"><span>69.90</span> 元</label>
+                                    </div>
+                                    <div class="btns"><a href="#" class="a-zaishou">5家在售</a><a href="#" class="a-shoucang">收藏</a></div>
+                                </div>
+                                <div class="interest-item">
+                                    <a href="#"> <img class="goodsimg" src="~/Content/uploads/181015/1-181015007.jpg" /></a>
+                                    <div class="interest-title">
+                                        <div class="tab-list pull-right">124人领券</div>
+                                    </div>
+                                    <div class="goods-name padlr10 mart10"><a href="#">袜子女短袜浅口韩国可爱纯棉薄款夏季学院风隐形袜低帮</a></div>
+                                    <div class="marl10 mart10">
+                                        到手价
+                                        <label class="unit"><span>128.00</span> 元</label>
+                                    </div>
+                                    <div class="btns"><a href="#" class="a-zaishou">5家在售</a><a href="#" class="a-shoucang">收藏</a></div>
+                                </div>
+                                <div class="interest-item">
+                                    <a href="#"> <img class="goodsimg" src="~/Content/uploads/181015/1-181015008.jpg" /></a>
+                                    <div class="interest-title">
+                                        <div class="tab-list pull-right">124人领券</div>
+                                    </div>
+                                    <div class="goods-name padlr10 mart10"><a href="#">袜子女短袜浅口韩国可爱纯棉薄款夏季学院风隐形袜低帮</a></div>
+                                    <div class="marl10 mart10">
+                                        到手价
+                                        <label class="unit"><span>108.90</span> 元</label>
+                                    </div>
+                                    <div class="btns"><a href="#" class="a-zaishou">5家在售</a><a href="#" class="a-shoucang">收藏</a></div>
+                                </div>
+                                <div class="interest-item">
+                                    <a href="#"> <img class="goodsimg" src="~/Content/uploads/181015/1-181015009.jpg" /></a>
+                                    <div class="interest-title">
+                                        <div class="tab-list pull-right">124人领券</div>
+                                    </div>
+                                    <div class="goods-name padlr10 mart10"><a href="#">袜子女短袜浅口韩国可爱纯棉薄款夏季学院风隐形袜低帮</a></div>
+                                    <div class="marl10 mart10">
+                                        到手价
+                                        <label class="unit"><span>24.90</span> 元</label>
+                                    </div>
+                                    <div class="btns"><a href="#" class="a-zaishou">5家在售</a><a href="#" class="a-shoucang">收藏</a></div>
+                                </div>
+                            </div>
+                            <div class="clearflx"></div>
+                        </div>
+                        <div class="page-box">
+                            <div class="page"> <span class='disabled'>上一页</span><a class="active">1</a> <a href="list_1_2.html">2</a> <a href="list_1_2.html">下一页</a> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="widget"> <a href="#" class="phone"> <img src="~/Content/uploads/181015/icon/shoucang.png" alt=""><img class="hover-icon" src="../uploads/181015/icon/shoucang-r.png" alt=""> <span>收藏</span> </a><a href="#" class="phone"> <img src="../uploads/181015/icon/fenxiang.png" alt=""><img class="hover-icon" src="../uploads/181015/icon/fenxiang-r.png" alt=""> <span>分享</span> </a><a href="#" class="phone"> <img src="../uploads/181015/icon/kefu.png" alt=""><img class="hover-icon" src="../uploads/181015/icon/kefu-r.png" alt=""> <span>在线客服</span> </a><a href="#" class="phone"> <img src="../uploads/181015/icon/bianji.png" alt=""><img class="hover-icon" src="../uploads/181015/icon/bianji-r.png" alt=""> <span>快速发帖</span> </a><a href="#" class="phone"> <img src="../uploads/181015/icon/phone.png" alt=""><img class="hover-icon" src="../uploads/181015/icon/phone-r.png" alt=""> <span>APP下载</span> </a><a href="#" class="phone"> <img src="../uploads/181015/icon/wenti.png" alt=""><img class="hover-icon" src="../uploads/181015/icon/wenti-r.png" alt=""> <span>问题反馈</span> </a><a href="#" class="phone"> <img src="../uploads/181015/icon/wx.png" alt=""><img class="hover-icon" src="../uploads/181015/icon/wx-r.png" alt=""> <span>官方微信</span> </a> <a href="javascript:void(0);" class="backTop"> <img src="../skin/images/backtop.png" alt=""><img class="hover-icon" src="../skin/images/backtop-r.png" alt=""> </a> </div>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301871">Learn more &raquo;</a></p>
+    <div id="footer">
+        <div class="footer_contain cf">
+            <p>Powered by 9kq.com © 2013-2018 Qicai Inc. ( 渝ICP备14007896号 ) 免责声明 | 法律声明 | 站长统计 </p>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301872">Learn more &raquo;</a></p>
-    </div>
-</div>
+    <script src="~/Content/skin/js/jquery.min.js"></script>
+    <script src="~/Content/skin/js/mask.js"></script>
+    <script src="~/Content/skin/js/dialog.js"></script>
+    <script src="~/Content/skin/js/alert.js"></script>
+    <script src="~/Content/skin/js/backtop.js"></script>
+    <script src="~/Content/skin/js/houseslist.js"></script>
+    <script src="~/Content/skin/js/placeholder.js"></script>
+
+</body>
+</html>
+<script>
+    function search(){
+    console.log("1212");
+    }
+
+
+</script>
